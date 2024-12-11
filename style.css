@@ -1,0 +1,42 @@
+/*
+Theme Name: JRKM Blog
+Theme URI: https://jerickmalungcut.com/
+Author: Jerick Malungcut
+Author URI: https://jerickmalungcut.com/
+Description: Blogsite of Jerick Malungcut that contains projects and personal events.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: JRKMBlog
+*/
+
+/* Navigation */
+
+.main-navigation .menu ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-navigation .menu ul li .children {
+  display: none;
+}
+
+.main-navigation .menu ul li a {
+  transition: all 0.1s ease-in-out;
+}
+
+.main-navigation .menu ul li a:hover {
+  color: cornflowerblue;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
