@@ -9,7 +9,7 @@
 <body <?php body_class(); ?>>
 
     <!-- Navigation bar -->
-    <header class="fixed inset-0 z-50 flex bg-transparent text-white justify-center items-start py-6" style="background-color: <?php echo get_theme_mod('header_background_color', 'transparent'); ?>">
+    <header class="fixed inset-0 z-50 flex justify-center items-start py-6<?php echo is_front_page() ? ' bg-transparent text-white ' : ' bg-blue-500 text-slate-800'; ?>" style="background-color: <?php echo get_theme_mod('header_background_color', 'transparent'); ?>">
         <div class="container flex justify-between items-center">
             <div class="logo text-2xl font-bold">
             <?php
